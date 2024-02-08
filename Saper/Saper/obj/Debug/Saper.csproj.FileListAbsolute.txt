@@ -1,0 +1,11 @@
+C:\Users\kbadowicz\source\repos\Saper\Saper\bin\Debug\Saper.exe.config
+C:\Users\kbadowicz\source\repos\Saper\Saper\bin\Debug\Saper.exe
+C:\Users\kbadowicz\source\repos\Saper\Saper\bin\Debug\Saper.pdb
+C:\Users\kbadowicz\source\repos\Saper\Saper\obj\Debug\Saper.csproj.AssemblyReference.cache
+C:\Users\kbadowicz\source\repos\Saper\Saper\obj\Debug\Saper.Form1.resources
+C:\Users\kbadowicz\source\repos\Saper\Saper\obj\Debug\Saper.LevelEasy.resources
+C:\Users\kbadowicz\source\repos\Saper\Saper\obj\Debug\Saper.Properties.Resources.resources
+C:\Users\kbadowicz\source\repos\Saper\Saper\obj\Debug\Saper.csproj.GenerateResource.cache
+C:\Users\kbadowicz\source\repos\Saper\Saper\obj\Debug\Saper.csproj.CoreCompileInputs.cache
+C:\Users\kbadowicz\source\repos\Saper\Saper\obj\Debug\Saper.exe
+C:\Users\kbadowicz\source\repos\Saper\Saper\obj\Debug\Saper.pdb
