@@ -35,6 +35,8 @@ namespace Saper
             this.timer = new System.Windows.Forms.Timer(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
             this.imgPic = new System.Windows.Forms.ImageList(this.components);
+            this.howManyFlags = new System.Windows.Forms.Label();
+            this.ileempty = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -57,18 +59,47 @@ namespace Saper
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.Silver;
-            this.panel1.Location = new System.Drawing.Point(12, 151);
+            this.panel1.Location = new System.Drawing.Point(50, 242);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(320, 320);
+            this.panel1.Size = new System.Drawing.Size(240, 240);
             this.panel1.TabIndex = 65;
             // 
             // imgPic
             // 
             this.imgPic.ImageStream = ((System.Windows.Forms.ImageListStreamer)(resources.GetObject("imgPic.ImageStream")));
             this.imgPic.TransparentColor = System.Drawing.Color.Transparent;
-            this.imgPic.Images.SetKeyName(0, "field.jpg");
-            this.imgPic.Images.SetKeyName(1, "bomb.png");
-            this.imgPic.Images.SetKeyName(2, "empty.png");
+            this.imgPic.Images.SetKeyName(0, "uncoveredTile.png");
+            this.imgPic.Images.SetKeyName(1, "1.png");
+            this.imgPic.Images.SetKeyName(2, "2.png");
+            this.imgPic.Images.SetKeyName(3, "3.png");
+            this.imgPic.Images.SetKeyName(4, "4.png");
+            this.imgPic.Images.SetKeyName(5, "5.png");
+            this.imgPic.Images.SetKeyName(6, "6.png");
+            this.imgPic.Images.SetKeyName(7, "7.png");
+            this.imgPic.Images.SetKeyName(8, "8.png");
+            this.imgPic.Images.SetKeyName(9, "coveredTile.png");
+            this.imgPic.Images.SetKeyName(10, "flag.png");
+            this.imgPic.Images.SetKeyName(11, "mine.png");
+            this.imgPic.Images.SetKeyName(12, "redMine.png");
+            this.imgPic.Images.SetKeyName(13, "wrongFlag.png");
+            // 
+            // howManyFlags
+            // 
+            this.howManyFlags.AutoSize = true;
+            this.howManyFlags.Location = new System.Drawing.Point(31, 35);
+            this.howManyFlags.Name = "howManyFlags";
+            this.howManyFlags.Size = new System.Drawing.Size(35, 13);
+            this.howManyFlags.TabIndex = 66;
+            this.howManyFlags.Text = "label2";
+            // 
+            // ileempty
+            // 
+            this.ileempty.AutoSize = true;
+            this.ileempty.Location = new System.Drawing.Point(139, 36);
+            this.ileempty.Name = "ileempty";
+            this.ileempty.Size = new System.Drawing.Size(35, 13);
+            this.ileempty.TabIndex = 67;
+            this.ileempty.Text = "label2";
             // 
             // LevelEasy
             // 
@@ -76,12 +107,15 @@ namespace Saper
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.ClientSize = new System.Drawing.Size(344, 492);
+            this.Controls.Add(this.ileempty);
+            this.Controls.Add(this.howManyFlags);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Name = "LevelEasy";
             this.Text = "LevelEasy";
             this.Load += new System.EventHandler(this.LevelEasy_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -90,5 +124,7 @@ namespace Saper
         private System.Windows.Forms.Timer timer;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.ImageList imgPic;
+        private System.Windows.Forms.Label howManyFlags;
+        private System.Windows.Forms.Label ileempty;
     }
 }
